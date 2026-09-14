@@ -1,0 +1,816 @@
+{
+  "meta": {
+    "hospital": "示例三甲医院",
+    "source": "公开医疗统计示例数据（演示用，可替换为真实 API）",
+    "period": "2025 年度"
+  },
+  "departments": [
+    "儿科",
+    "骨科",
+    "内科",
+    "外科",
+    "妇产科",
+    "耳鼻喉科",
+    "急诊科"
+  ],
+  "months": [
+    "1月",
+    "2月",
+    "3月",
+    "4月",
+    "5月",
+    "6月",
+    "7月",
+    "8月",
+    "9月",
+    "10月",
+    "11月",
+    "12月"
+  ],
+  "visitTypes": [
+    "普通",
+    "专家",
+    "知名专家"
+  ],
+  "records": [
+    {
+      "dept": "儿科",
+      "month": "1月",
+      "outpatient": 4718,
+      "emergency": 512,
+      "revenue": 98.9,
+      "visits": 5842
+    },
+    {
+      "dept": "儿科",
+      "month": "2月",
+      "outpatient": 4482,
+      "emergency": 487,
+      "revenue": 93.9,
+      "visits": 5549
+    },
+    {
+      "dept": "儿科",
+      "month": "3月",
+      "outpatient": 4114,
+      "emergency": 447,
+      "revenue": 86.2,
+      "visits": 5093
+    },
+    {
+      "dept": "儿科",
+      "month": "4月",
+      "outpatient": 4009,
+      "emergency": 435,
+      "revenue": 84,
+      "visits": 4964
+    },
+    {
+      "dept": "儿科",
+      "month": "5月",
+      "outpatient": 4026,
+      "emergency": 437,
+      "revenue": 84.4,
+      "visits": 4985
+    },
+    {
+      "dept": "儿科",
+      "month": "6月",
+      "outpatient": 3892,
+      "emergency": 423,
+      "revenue": 81.6,
+      "visits": 4819
+    },
+    {
+      "dept": "儿科",
+      "month": "7月",
+      "outpatient": 3421,
+      "emergency": 371,
+      "revenue": 71.7,
+      "visits": 4236
+    },
+    {
+      "dept": "儿科",
+      "month": "8月",
+      "outpatient": 3482,
+      "emergency": 378,
+      "revenue": 73,
+      "visits": 4312
+    },
+    {
+      "dept": "儿科",
+      "month": "9月",
+      "outpatient": 3913,
+      "emergency": 425,
+      "revenue": 82,
+      "visits": 4845
+    },
+    {
+      "dept": "儿科",
+      "month": "10月",
+      "outpatient": 4192,
+      "emergency": 455,
+      "revenue": 87.8,
+      "visits": 5190
+    },
+    {
+      "dept": "儿科",
+      "month": "11月",
+      "outpatient": 4377,
+      "emergency": 475,
+      "revenue": 91.7,
+      "visits": 5419
+    },
+    {
+      "dept": "儿科",
+      "month": "12月",
+      "outpatient": 4807,
+      "emergency": 522,
+      "revenue": 100.7,
+      "visits": 5952
+    },
+    {
+      "dept": "骨科",
+      "month": "1月",
+      "outpatient": 4819,
+      "emergency": 509,
+      "revenue": 120.5,
+      "visits": 5960
+    },
+    {
+      "dept": "骨科",
+      "month": "2月",
+      "outpatient": 4060,
+      "emergency": 428,
+      "revenue": 101.5,
+      "visits": 5021
+    },
+    {
+      "dept": "骨科",
+      "month": "3月",
+      "outpatient": 4146,
+      "emergency": 438,
+      "revenue": 103.7,
+      "visits": 5128
+    },
+    {
+      "dept": "骨科",
+      "month": "4月",
+      "outpatient": 3872,
+      "emergency": 409,
+      "revenue": 96.8,
+      "visits": 4789
+    },
+    {
+      "dept": "骨科",
+      "month": "5月",
+      "outpatient": 3297,
+      "emergency": 348,
+      "revenue": 82.4,
+      "visits": 4078
+    },
+    {
+      "dept": "骨科",
+      "month": "6月",
+      "outpatient": 3306,
+      "emergency": 349,
+      "revenue": 82.7,
+      "visits": 4089
+    },
+    {
+      "dept": "骨科",
+      "month": "7月",
+      "outpatient": 3465,
+      "emergency": 366,
+      "revenue": 86.6,
+      "visits": 4286
+    },
+    {
+      "dept": "骨科",
+      "month": "8月",
+      "outpatient": 3157,
+      "emergency": 333,
+      "revenue": 78.9,
+      "visits": 3904
+    },
+    {
+      "dept": "骨科",
+      "month": "9月",
+      "outpatient": 3456,
+      "emergency": 365,
+      "revenue": 86.4,
+      "visits": 4275
+    },
+    {
+      "dept": "骨科",
+      "month": "10月",
+      "outpatient": 4027,
+      "emergency": 425,
+      "revenue": 100.7,
+      "visits": 4981
+    },
+    {
+      "dept": "骨科",
+      "month": "11月",
+      "outpatient": 4049,
+      "emergency": 427,
+      "revenue": 101.2,
+      "visits": 5007
+    },
+    {
+      "dept": "骨科",
+      "month": "12月",
+      "outpatient": 4398,
+      "emergency": 464,
+      "revenue": 109.9,
+      "visits": 5439
+    },
+    {
+      "dept": "内科",
+      "month": "1月",
+      "outpatient": 6173,
+      "emergency": 629,
+      "revenue": 127.1,
+      "visits": 7384
+    },
+    {
+      "dept": "内科",
+      "month": "2月",
+      "outpatient": 4962,
+      "emergency": 506,
+      "revenue": 102.2,
+      "visits": 5935
+    },
+    {
+      "dept": "内科",
+      "month": "3月",
+      "outpatient": 5192,
+      "emergency": 529,
+      "revenue": 106.9,
+      "visits": 6210
+    },
+    {
+      "dept": "内科",
+      "month": "4月",
+      "outpatient": 4897,
+      "emergency": 499,
+      "revenue": 100.8,
+      "visits": 5857
+    },
+    {
+      "dept": "内科",
+      "month": "5月",
+      "outpatient": 4907,
+      "emergency": 500,
+      "revenue": 101,
+      "visits": 5869
+    },
+    {
+      "dept": "内科",
+      "month": "6月",
+      "outpatient": 4414,
+      "emergency": 450,
+      "revenue": 90.9,
+      "visits": 5280
+    },
+    {
+      "dept": "内科",
+      "month": "7月",
+      "outpatient": 4521,
+      "emergency": 461,
+      "revenue": 93.1,
+      "visits": 5408
+    },
+    {
+      "dept": "内科",
+      "month": "8月",
+      "outpatient": 4586,
+      "emergency": 468,
+      "revenue": 94.4,
+      "visits": 5485
+    },
+    {
+      "dept": "内科",
+      "month": "9月",
+      "outpatient": 4646,
+      "emergency": 474,
+      "revenue": 95.7,
+      "visits": 5557
+    },
+    {
+      "dept": "内科",
+      "month": "10月",
+      "outpatient": 4969,
+      "emergency": 507,
+      "revenue": 102.3,
+      "visits": 5943
+    },
+    {
+      "dept": "内科",
+      "month": "11月",
+      "outpatient": 5888,
+      "emergency": 600,
+      "revenue": 121.2,
+      "visits": 7043
+    },
+    {
+      "dept": "内科",
+      "month": "12月",
+      "outpatient": 6297,
+      "emergency": 642,
+      "revenue": 129.6,
+      "visits": 7531
+    },
+    {
+      "dept": "外科",
+      "month": "1月",
+      "outpatient": 4195,
+      "emergency": 481,
+      "revenue": 138.2,
+      "visits": 5305
+    },
+    {
+      "dept": "外科",
+      "month": "2月",
+      "outpatient": 3453,
+      "emergency": 396,
+      "revenue": 113.8,
+      "visits": 4367
+    },
+    {
+      "dept": "外科",
+      "month": "3月",
+      "outpatient": 3598,
+      "emergency": 413,
+      "revenue": 118.5,
+      "visits": 4551
+    },
+    {
+      "dept": "外科",
+      "month": "4月",
+      "outpatient": 3431,
+      "emergency": 394,
+      "revenue": 113,
+      "visits": 4339
+    },
+    {
+      "dept": "外科",
+      "month": "5月",
+      "outpatient": 3404,
+      "emergency": 390,
+      "revenue": 112.1,
+      "visits": 4305
+    },
+    {
+      "dept": "外科",
+      "month": "6月",
+      "outpatient": 2914,
+      "emergency": 334,
+      "revenue": 96,
+      "visits": 3685
+    },
+    {
+      "dept": "外科",
+      "month": "7月",
+      "outpatient": 3185,
+      "emergency": 365,
+      "revenue": 104.9,
+      "visits": 4028
+    },
+    {
+      "dept": "外科",
+      "month": "8月",
+      "outpatient": 3099,
+      "emergency": 356,
+      "revenue": 102.1,
+      "visits": 3920
+    },
+    {
+      "dept": "外科",
+      "month": "9月",
+      "outpatient": 3065,
+      "emergency": 352,
+      "revenue": 101,
+      "visits": 3877
+    },
+    {
+      "dept": "外科",
+      "month": "10月",
+      "outpatient": 3480,
+      "emergency": 399,
+      "revenue": 114.6,
+      "visits": 4401
+    },
+    {
+      "dept": "外科",
+      "month": "11月",
+      "outpatient": 3404,
+      "emergency": 390,
+      "revenue": 112.1,
+      "visits": 4305
+    },
+    {
+      "dept": "外科",
+      "month": "12月",
+      "outpatient": 4453,
+      "emergency": 511,
+      "revenue": 146.7,
+      "visits": 5631
+    },
+    {
+      "dept": "妇产科",
+      "month": "1月",
+      "outpatient": 3511,
+      "emergency": 374,
+      "revenue": 91.3,
+      "visits": 4213
+    },
+    {
+      "dept": "妇产科",
+      "month": "2月",
+      "outpatient": 2910,
+      "emergency": 310,
+      "revenue": 75.7,
+      "visits": 3492
+    },
+    {
+      "dept": "妇产科",
+      "month": "3月",
+      "outpatient": 3003,
+      "emergency": 320,
+      "revenue": 78.1,
+      "visits": 3603
+    },
+    {
+      "dept": "妇产科",
+      "month": "4月",
+      "outpatient": 2797,
+      "emergency": 298,
+      "revenue": 72.7,
+      "visits": 3356
+    },
+    {
+      "dept": "妇产科",
+      "month": "5月",
+      "outpatient": 2885,
+      "emergency": 308,
+      "revenue": 75,
+      "visits": 3462
+    },
+    {
+      "dept": "妇产科",
+      "month": "6月",
+      "outpatient": 2902,
+      "emergency": 310,
+      "revenue": 75.4,
+      "visits": 3482
+    },
+    {
+      "dept": "妇产科",
+      "month": "7月",
+      "outpatient": 2461,
+      "emergency": 263,
+      "revenue": 64,
+      "visits": 2954
+    },
+    {
+      "dept": "妇产科",
+      "month": "8月",
+      "outpatient": 2694,
+      "emergency": 287,
+      "revenue": 70,
+      "visits": 3233
+    },
+    {
+      "dept": "妇产科",
+      "month": "9月",
+      "outpatient": 2843,
+      "emergency": 303,
+      "revenue": 73.9,
+      "visits": 3412
+    },
+    {
+      "dept": "妇产科",
+      "month": "10月",
+      "outpatient": 2990,
+      "emergency": 319,
+      "revenue": 77.7,
+      "visits": 3588
+    },
+    {
+      "dept": "妇产科",
+      "month": "11月",
+      "outpatient": 3289,
+      "emergency": 351,
+      "revenue": 85.5,
+      "visits": 3947
+    },
+    {
+      "dept": "妇产科",
+      "month": "12月",
+      "outpatient": 3857,
+      "emergency": 411,
+      "revenue": 100.3,
+      "visits": 4628
+    },
+    {
+      "dept": "耳鼻喉科",
+      "month": "1月",
+      "outpatient": 2689,
+      "emergency": 328,
+      "revenue": 63.6,
+      "visits": 3422
+    },
+    {
+      "dept": "耳鼻喉科",
+      "month": "2月",
+      "outpatient": 2130,
+      "emergency": 260,
+      "revenue": 50.4,
+      "visits": 2711
+    },
+    {
+      "dept": "耳鼻喉科",
+      "month": "3月",
+      "outpatient": 2253,
+      "emergency": 274,
+      "revenue": 53.2,
+      "visits": 2867
+    },
+    {
+      "dept": "耳鼻喉科",
+      "month": "4月",
+      "outpatient": 2268,
+      "emergency": 276,
+      "revenue": 53.6,
+      "visits": 2887
+    },
+    {
+      "dept": "耳鼻喉科",
+      "month": "5月",
+      "outpatient": 2193,
+      "emergency": 267,
+      "revenue": 51.8,
+      "visits": 2791
+    },
+    {
+      "dept": "耳鼻喉科",
+      "month": "6月",
+      "outpatient": 2102,
+      "emergency": 256,
+      "revenue": 49.7,
+      "visits": 2676
+    },
+    {
+      "dept": "耳鼻喉科",
+      "month": "7月",
+      "outpatient": 1959,
+      "emergency": 239,
+      "revenue": 46.3,
+      "visits": 2493
+    },
+    {
+      "dept": "耳鼻喉科",
+      "month": "8月",
+      "outpatient": 1747,
+      "emergency": 213,
+      "revenue": 41.3,
+      "visits": 2223
+    },
+    {
+      "dept": "耳鼻喉科",
+      "month": "9月",
+      "outpatient": 1966,
+      "emergency": 240,
+      "revenue": 46.5,
+      "visits": 2503
+    },
+    {
+      "dept": "耳鼻喉科",
+      "month": "10月",
+      "outpatient": 2364,
+      "emergency": 288,
+      "revenue": 55.9,
+      "visits": 3009
+    },
+    {
+      "dept": "耳鼻喉科",
+      "month": "11月",
+      "outpatient": 2367,
+      "emergency": 288,
+      "revenue": 56,
+      "visits": 3013
+    },
+    {
+      "dept": "耳鼻喉科",
+      "month": "12月",
+      "outpatient": 2663,
+      "emergency": 324,
+      "revenue": 62.9,
+      "visits": 3390
+    },
+    {
+      "dept": "急诊科",
+      "month": "1月",
+      "outpatient": 2881,
+      "emergency": 556,
+      "revenue": 66.5,
+      "visits": 3657
+    },
+    {
+      "dept": "急诊科",
+      "month": "2月",
+      "outpatient": 2857,
+      "emergency": 552,
+      "revenue": 65.9,
+      "visits": 3626
+    },
+    {
+      "dept": "急诊科",
+      "month": "3月",
+      "outpatient": 2808,
+      "emergency": 542,
+      "revenue": 64.8,
+      "visits": 3564
+    },
+    {
+      "dept": "急诊科",
+      "month": "4月",
+      "outpatient": 2503,
+      "emergency": 483,
+      "revenue": 57.8,
+      "visits": 3177
+    },
+    {
+      "dept": "急诊科",
+      "month": "5月",
+      "outpatient": 2415,
+      "emergency": 466,
+      "revenue": 55.7,
+      "visits": 3065
+    },
+    {
+      "dept": "急诊科",
+      "month": "6月",
+      "outpatient": 2383,
+      "emergency": 460,
+      "revenue": 55,
+      "visits": 3024
+    },
+    {
+      "dept": "急诊科",
+      "month": "7月",
+      "outpatient": 2458,
+      "emergency": 475,
+      "revenue": 56.7,
+      "visits": 3120
+    },
+    {
+      "dept": "急诊科",
+      "month": "8月",
+      "outpatient": 2394,
+      "emergency": 462,
+      "revenue": 55.2,
+      "visits": 3038
+    },
+    {
+      "dept": "急诊科",
+      "month": "9月",
+      "outpatient": 2610,
+      "emergency": 504,
+      "revenue": 60.2,
+      "visits": 3313
+    },
+    {
+      "dept": "急诊科",
+      "month": "10月",
+      "outpatient": 2718,
+      "emergency": 525,
+      "revenue": 62.7,
+      "visits": 3450
+    },
+    {
+      "dept": "急诊科",
+      "month": "11月",
+      "outpatient": 2807,
+      "emergency": 542,
+      "revenue": 64.8,
+      "visits": 3563
+    },
+    {
+      "dept": "急诊科",
+      "month": "12月",
+      "outpatient": 3041,
+      "emergency": 587,
+      "revenue": 70.2,
+      "visits": 3859
+    }
+  ],
+  "visitTypeSplit": [
+    {
+      "dept": "儿科",
+      "type": "普通",
+      "value": 2352
+    },
+    {
+      "dept": "儿科",
+      "type": "专家",
+      "value": 1176
+    },
+    {
+      "dept": "儿科",
+      "type": "知名专家",
+      "value": 672
+    },
+    {
+      "dept": "骨科",
+      "type": "普通",
+      "value": 1976
+    },
+    {
+      "dept": "骨科",
+      "type": "专家",
+      "value": 1140
+    },
+    {
+      "dept": "骨科",
+      "type": "知名专家",
+      "value": 684
+    },
+    {
+      "dept": "内科",
+      "type": "普通",
+      "value": 2550
+    },
+    {
+      "dept": "内科",
+      "type": "专家",
+      "value": 1632
+    },
+    {
+      "dept": "内科",
+      "type": "知名专家",
+      "value": 918
+    },
+    {
+      "dept": "外科",
+      "type": "普通",
+      "value": 1632
+    },
+    {
+      "dept": "外科",
+      "type": "专家",
+      "value": 1122
+    },
+    {
+      "dept": "外科",
+      "type": "知名专家",
+      "value": 646
+    },
+    {
+      "dept": "妇产科",
+      "type": "普通",
+      "value": 1740
+    },
+    {
+      "dept": "妇产科",
+      "type": "专家",
+      "value": 780
+    },
+    {
+      "dept": "妇产科",
+      "type": "知名专家",
+      "value": 480
+    },
+    {
+      "dept": "耳鼻喉科",
+      "type": "普通",
+      "value": 1188
+    },
+    {
+      "dept": "耳鼻喉科",
+      "type": "专家",
+      "value": 638
+    },
+    {
+      "dept": "耳鼻喉科",
+      "type": "知名专家",
+      "value": 374
+    },
+    {
+      "dept": "急诊科",
+      "type": "普通",
+      "value": 1144
+    },
+    {
+      "dept": "急诊科",
+      "type": "专家",
+      "value": 884
+    },
+    {
+      "dept": "急诊科",
+      "type": "知名专家",
+      "value": 572
+    }
+  ]
+}

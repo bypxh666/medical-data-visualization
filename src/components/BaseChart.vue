@@ -13,13 +13,24 @@ const props = defineProps({
   height: { type: String, default: '360px' },
 })
 
+const emit = defineEmits(['chart-click'])
+
 const el = ref(null)
 let chart = null
 
+function ensureChart() {
+  if (!el.value) return null
+  if (!chart) {
+    chart = echarts.init(el.value)
+    // 点击图表元素时向外抛出，供外层做跨图联动
+    chart.on('click', (params) => emit('chart-click', params))
+  }
+  return chart
+}
+
 function render() {
-  if (!el.value) return
-  if (!chart) chart = echarts.init(el.value)
-  chart.setOption(props.option, true)
+  const c = ensureChart()
+  if (c) c.setOption(props.option, true)
 }
 
 function resize() {
