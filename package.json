@@ -1,0 +1,20 @@
+{
+  "name": "medical-data-visualization",
+  "private": true,
+  "version": "1.0.0",
+  "description": "基于 Vue 3 与 ECharts 的医疗健康行业数据可视化大屏，覆盖出诊、急诊、收费、销售、客流、用药等典型场景。",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "echarts": "^6.0.0",
+    "vue": "^3.5.24"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.2.4"
+  }
+}
